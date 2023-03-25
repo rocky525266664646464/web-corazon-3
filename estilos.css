@@ -1,0 +1,43 @@
+@import url(`https://fonts.googleapis.com/css?family=Tangerine`);
+
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+    display:flex;
+    min-height: 100vh;
+    background: black;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    font-size: 55vw;
+    color: red;
+    animation: 4s ease infinite corazon;
+    text-shadow: 4px 3px 20px rgb(255, 22, 22, 0.669);
+}
+
+.container .contenido{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    text-align: center;
+    font-family: 'Tangerine',serif;
+}
+
+.container .contenido h1{
+    font-size: 4vw;
+}
+.container .contenido p{
+    font-size: 3vw;
+}
+@keyframes corazon{
+    40%{
+        transform: scale(1.4);
+    }
+}
